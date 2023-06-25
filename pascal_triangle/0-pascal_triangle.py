@@ -16,4 +16,3 @@ def pascal_triangle(n):
             row.append(list_above[j] + list_above[j + 1])
         result.append(row)
     return result[:n]
-  
